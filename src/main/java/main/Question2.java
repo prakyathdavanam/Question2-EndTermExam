@@ -20,8 +20,15 @@ public static void main(String[] args) {
 
 }
 public List<Integer> listWithDuplicates(List<Integer> number){
-	List <Integer> L1 = null;
+
+	List<Integer> L1 = new ArrayList<Integer>(); 
+			 
+	
+	
+		L1.addAll(number);
+	
 	//write your code here !! change the L1 to required value
+	
 	return L1 ;
 }
 }
